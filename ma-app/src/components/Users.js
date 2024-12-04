@@ -23,6 +23,9 @@ const Users = () => {
             }else{
                 console.log("User is a guest")
                 toast.error(`User Login required!`, { theme: "colored", position: "top-center" });
+                setTimeout(() => {
+                    navigation("/")
+                }, 5000);
 
             }
         } catch (error) {
