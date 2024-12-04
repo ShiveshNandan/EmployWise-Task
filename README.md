@@ -43,8 +43,8 @@ A modern browser.\
 Steps to Run the Project
 #### Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/ShiveshNandan/Task.git
+cd Task
 ```
 #### Install dependencies:
 ```bash
